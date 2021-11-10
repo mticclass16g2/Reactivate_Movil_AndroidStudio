@@ -9,24 +9,30 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:layout_editor_absoluteY="1dp">
+        tools:layout_editor_absoluteY="5dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:gravity="center"
             android:orientation="vertical"
             android:padding="5dp">
 
             <ImageView
                 android:id="@+id/Home_ImgV1"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="200dp"
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/reactivate_banner_1920x1080" />
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"></LinearLayout>
+
             <TextView
                 android:id="@+id/Home_TxtV1"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="70dp"
                 android:gravity="center"
                 android:text="Registrate como proveedor y ofrece tus servicios."
@@ -37,11 +43,15 @@
 
             <Button
                 android:id="@+id/Home_Btn1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="INICIAR SESION"
+                android:layout_width="wrap_content"
+                android:layout_height="66dp"
+                app:CornerRadius="20dp"
+                android:gravity="center|start|right"
+                android:onClick="iniciarLogin"
+                android:text="Crear/Modificar Tu cuenta de Proveedor"
                 android:textAlignment="center"
-                android:textStyle="bold" />
+                android:textStyle="italic"
+                style="?attr/materialButtonOutlinedStyle"/>
 
             <Space
                 android:layout_width="match_parent"
