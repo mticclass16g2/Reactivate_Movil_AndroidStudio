@@ -16,12 +16,12 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:orientation="vertical"
-            android:padding="5dp">
+            android:padding="20dp">
 
             <ImageView
                 android:id="@+id/Home_ImgV1"
-                android:layout_width="wrap_content"
-                android:layout_height="200dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/reactivate_banner_1920x1080" />
 
@@ -32,7 +32,7 @@
 
             <TextView
                 android:id="@+id/Home_TxtV1"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="70dp"
                 android:gravity="center"
                 android:text="Registrate como proveedor y ofrece tus servicios."
@@ -42,16 +42,12 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/Home_Btn1"
+                android:id="@+id/button4"
                 android:layout_width="wrap_content"
-                android:layout_height="66dp"
-                app:CornerRadius="20dp"
-                android:gravity="center|start|right"
+                android:layout_height="wrap_content"
                 android:onClick="iniciarLogin"
-                android:text="Crear/Modificar Tu cuenta de Proveedor"
-                android:textAlignment="center"
-                android:textStyle="italic"
-                />
+                android:text="Button"
+                app:cornerRadius="50dp" />
 
             <Space
                 android:layout_width="match_parent"
