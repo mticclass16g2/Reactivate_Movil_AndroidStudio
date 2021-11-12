@@ -40,34 +40,41 @@
 
                         <ImageButton
                             android:id="@+id/imageButton4"
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
                             android:layout_weight="1"
                             android:scaleType="fitXY"
+                            android:src="@drawable/reactivate_seccion_03_02_marketing_digital"
+                            tools:src="@drawable/reactivate_seccion_03_02_marketing_digital"
                             tools:srcCompat="@drawable/reactivate_seccion_03_02_marketing_digital" />
 
                         <ImageButton
                             android:id="@+id/imageButton5"
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
                             android:layout_weight="1"
                             android:scaleType="fitXY"
+                            android:src="@drawable/reactivate_seccion_03_03_asesoria_juridica"
+                            tools:src="@drawable/reactivate_seccion_03_03_asesoria_juridica"
                             tools:srcCompat="@drawable/reactivate_seccion_03_03_asesoria_juridica" />
 
                         <ImageButton
                             android:id="@+id/imageButton6"
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
                             android:layout_weight="1"
                             android:scaleType="fitXY"
+                            tools:src="@drawable/reactivate_seccion_03_04_cuidado_de_mascotas"
                             tools:srcCompat="@drawable/reactivate_seccion_03_04_cuidado_de_mascotas" />
 
                         <ImageButton
                             android:id="@+id/imageButton7"
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
                             android:layout_weight="1"
                             android:scaleType="fitXY"
+                            android:src="@drawable/reactivate_seccion_03_05_cuidado_de_muebles"
+                            tools:src="@drawable/reactivate_seccion_03_05_cuidado_de_muebles"
                             tools:srcCompat="@drawable/reactivate_seccion_03_05_cuidado_de_muebles" />
                     </LinearLayout>
 
@@ -78,34 +85,42 @@
 
                         <ImageButton
                             android:id="@+id/imageButton8"
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
                             android:layout_weight="1"
                             android:scaleType="fitXY"
+                            android:src="@drawable/reactivate_seccion_03_06_gimnasios_entrenadores_personales"
+                            tools:src="@drawable/reactivate_seccion_03_06_gimnasios_entrenadores_personales"
                             tools:srcCompat="@drawable/reactivate_seccion_03_06_gimnasios_entrenadores_personales" />
 
                         <ImageButton
                             android:id="@+id/imageButton11"
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
                             android:layout_weight="1"
                             android:scaleType="fitXY"
+                            android:src="@drawable/reactivate_seccion_03_07_arquitectura_construccion"
+                            tools:src="@drawable/reactivate_seccion_03_07_arquitectura_construccion"
                             tools:srcCompat="@drawable/reactivate_seccion_03_07_arquitectura_construccion" />
 
                         <ImageButton
                             android:id="@+id/imageButton10"
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
                             android:layout_weight="1"
                             android:scaleType="fitXY"
+                            android:src="@drawable/reactivate_seccion_03_08_asesoria_contable"
+                            tools:src="@drawable/reactivate_seccion_03_08_asesoria_contable"
                             tools:srcCompat="@drawable/reactivate_seccion_03_08_asesoria_contable" />
 
                         <ImageButton
                             android:id="@+id/imageButton9"
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
                             android:layout_weight="1"
                             android:scaleType="fitXY"
+                            android:src="@drawable/reactivate_seccion_03_09_electricistas"
+                            tools:src="@drawable/reactivate_seccion_03_09_electricistas"
                             tools:srcCompat="@drawable/reactivate_seccion_03_09_electricistas" />
                     </LinearLayout>
                 </LinearLayout>
@@ -122,6 +137,8 @@
                     android:layout_height="200dp"
                     android:layout_weight="1"
                     android:scaleType="fitXY"
+                    android:src="@drawable/restaurante_01"
+                    tools:src="@drawable/restaurante_01"
                     tools:srcCompat="@drawable/restaurante_01" />
 
                 <ImageButton
