@@ -43,6 +43,7 @@
                             android:layout_width="150dp"
                             android:layout_height="150dp"
                             android:layout_weight="1"
+                            android:backgroundTint="#00FFFFFF"
                             android:scaleType="fitXY"
                             android:src="@drawable/icono_abogados"
                             tools:src="@drawable/icono_abogados"
@@ -53,6 +54,7 @@
                             android:layout_width="150dp"
                             android:layout_height="150dp"
                             android:layout_weight="1"
+                            android:background="#00FFFFFF"
                             android:scaleType="fitXY"
                             android:src="@drawable/icono_asesores_ventas"
                             tools:src="@drawable/icono_asesores_ventas"
@@ -63,6 +65,7 @@
                             android:layout_width="150dp"
                             android:layout_height="150dp"
                             android:layout_weight="1"
+                            android:backgroundTint="#00FFFFFF"
                             android:scaleType="fitXY"
                             android:src="@drawable/icono_construccion"
                             tools:src="@drawable/icono_construccion"
@@ -73,6 +76,7 @@
                             android:layout_width="150dp"
                             android:layout_height="150dp"
                             android:layout_weight="1"
+                            android:background="#00FFFFFF"
                             android:scaleType="fitXY"
                             android:src="@drawable/icono_cuidado_muebles"
                             tools:src="@drawable/icono_cuidado_muebles"
@@ -89,6 +93,7 @@
                             android:layout_width="150dp"
                             android:layout_height="150dp"
                             android:layout_weight="1"
+                            android:background="#00FFFFFF"
                             android:scaleType="fitXY"
                             android:src="@drawable/icono_restaurantes"
                             tools:src="@drawable/icono_restaurantes"
@@ -99,6 +104,7 @@
                             android:layout_width="150dp"
                             android:layout_height="150dp"
                             android:layout_weight="1"
+                            android:background="#00FFFFFF"
                             android:scaleType="fitXY"
                             android:src="@drawable/icono_gimnasios"
                             tools:src="@drawable/icono_gimnasios"
@@ -109,6 +115,7 @@
                             android:layout_width="150dp"
                             android:layout_height="150dp"
                             android:layout_weight="1"
+                            android:background="#00FFFFFF"
                             android:scaleType="fitXY"
                             android:src="@drawable/icono_mascotas"
                             tools:src="@drawable/icono_mascotas"
@@ -119,6 +126,7 @@
                             android:layout_width="150dp"
                             android:layout_height="150dp"
                             android:layout_weight="1"
+                            android:backgroundTint="#00FFFFFF"
                             android:scaleType="fitXY"
                             android:src="@drawable/icono_servicios_salud"
                             tools:src="@drawable/icono_servicios_salud"
@@ -137,6 +145,7 @@
                     android:layout_width="200dp"
                     android:layout_height="200dp"
                     android:layout_weight="1"
+                    android:backgroundTint="#00FFFFFF"
                     android:scaleType="fitXY"
                     android:src="@drawable/restaurante_01"
                     tools:src="@drawable/restaurante_01"
@@ -147,6 +156,7 @@
                     android:layout_width="200dp"
                     android:layout_height="200dp"
                     android:layout_weight="1"
+                    android:backgroundTint="#00FFFFFF"
                     android:scaleType="fitXY"
                     tools:srcCompat="@drawable/restaurante_02" />
             </LinearLayout>
@@ -181,6 +191,7 @@
                     android:layout_width="200dp"
                     android:layout_height="200dp"
                     android:layout_weight="1"
+                    android:backgroundTint="#00FFFFFF"
                     android:scaleType="fitXY"
                     tools:srcCompat="@drawable/restaurante_03" />
 
@@ -189,6 +200,7 @@
                     android:layout_width="200dp"
                     android:layout_height="200dp"
                     android:layout_weight="1"
+                    android:background="#00FFFFFF"
                     android:scaleType="fitXY"
                     tools:srcCompat="@drawable/restaurante_04" />
             </LinearLayout>
@@ -223,6 +235,7 @@
                     android:layout_width="200dp"
                     android:layout_height="200dp"
                     android:layout_weight="1"
+                    android:background="#00FFFFFF"
                     android:scaleType="fitXY"
                     tools:srcCompat="@drawable/restaurante_05" />
 
@@ -231,6 +244,7 @@
                     android:layout_width="200dp"
                     android:layout_height="200dp"
                     android:layout_weight="1"
+                    android:background="#00FFFFFF"
                     android:scaleType="fitXY"
                     tools:srcCompat="@drawable/restaurante_06" />
             </LinearLayout>
@@ -265,6 +279,7 @@
                     android:layout_width="200dp"
                     android:layout_height="200dp"
                     android:layout_weight="1"
+                    android:backgroundTint="#00FFFFFF"
                     android:scaleType="fitXY"
                     tools:srcCompat="@drawable/restaurante_07" />
 
@@ -273,6 +288,7 @@
                     android:layout_width="200dp"
                     android:layout_height="200dp"
                     android:layout_weight="1"
+                    android:backgroundTint="#00FFFFFF"
                     android:scaleType="fitXY"
                     tools:srcCompat="@drawable/restaurante_08" />
             </LinearLayout>
