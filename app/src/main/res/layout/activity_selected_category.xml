@@ -44,9 +44,9 @@
                             android:layout_height="150dp"
                             android:layout_weight="1"
                             android:scaleType="fitXY"
-                            android:src="@drawable/reactivate_seccion_03_02_marketing_digital"
-                            tools:src="@drawable/reactivate_seccion_03_02_marketing_digital"
-                            tools:srcCompat="@drawable/reactivate_seccion_03_02_marketing_digital" />
+                            android:src="@drawable/icono_abogados"
+                            tools:src="@drawable/icono_abogados"
+                            tools:srcCompat="@drawable/icono_abogados" />
 
                         <ImageButton
                             android:id="@+id/imageButton5"
@@ -54,9 +54,9 @@
                             android:layout_height="150dp"
                             android:layout_weight="1"
                             android:scaleType="fitXY"
-                            android:src="@drawable/reactivate_seccion_03_03_asesoria_juridica"
-                            tools:src="@drawable/reactivate_seccion_03_03_asesoria_juridica"
-                            tools:srcCompat="@drawable/reactivate_seccion_03_03_asesoria_juridica" />
+                            android:src="@drawable/icono_asesores_ventas"
+                            tools:src="@drawable/icono_asesores_ventas"
+                            tools:srcCompat="@drawable/icono_asesores_ventas" />
 
                         <ImageButton
                             android:id="@+id/imageButton6"
@@ -64,8 +64,9 @@
                             android:layout_height="150dp"
                             android:layout_weight="1"
                             android:scaleType="fitXY"
-                            tools:src="@drawable/reactivate_seccion_03_04_cuidado_de_mascotas"
-                            tools:srcCompat="@drawable/reactivate_seccion_03_04_cuidado_de_mascotas" />
+                            android:src="@drawable/icono_construccion"
+                            tools:src="@drawable/icono_construccion"
+                            tools:srcCompat="@drawable/icono_construccion" />
 
                         <ImageButton
                             android:id="@+id/imageButton7"
@@ -73,9 +74,9 @@
                             android:layout_height="150dp"
                             android:layout_weight="1"
                             android:scaleType="fitXY"
-                            android:src="@drawable/reactivate_seccion_03_05_cuidado_de_muebles"
-                            tools:src="@drawable/reactivate_seccion_03_05_cuidado_de_muebles"
-                            tools:srcCompat="@drawable/reactivate_seccion_03_05_cuidado_de_muebles" />
+                            android:src="@drawable/icono_cuidado_muebles"
+                            tools:src="@drawable/icono_cuidado_muebles"
+                            tools:srcCompat="@drawable/icono_cuidado_muebles" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -89,9 +90,9 @@
                             android:layout_height="150dp"
                             android:layout_weight="1"
                             android:scaleType="fitXY"
-                            android:src="@drawable/reactivate_seccion_03_06_gimnasios_entrenadores_personales"
-                            tools:src="@drawable/reactivate_seccion_03_06_gimnasios_entrenadores_personales"
-                            tools:srcCompat="@drawable/reactivate_seccion_03_06_gimnasios_entrenadores_personales" />
+                            android:src="@drawable/icono_diseño_web"
+                            tools:src="@drawable/icono_diseño_web"
+                            tools:srcCompat="@drawable/icono_diseño_web" />
 
                         <ImageButton
                             android:id="@+id/imageButton11"
@@ -99,9 +100,9 @@
                             android:layout_height="150dp"
                             android:layout_weight="1"
                             android:scaleType="fitXY"
-                            android:src="@drawable/reactivate_seccion_03_07_arquitectura_construccion"
-                            tools:src="@drawable/reactivate_seccion_03_07_arquitectura_construccion"
-                            tools:srcCompat="@drawable/reactivate_seccion_03_07_arquitectura_construccion" />
+                            android:src="@drawable/icono_gimnasios"
+                            tools:src="@drawable/icono_gimnasios"
+                            tools:srcCompat="@drawable/icono_gimnasios" />
 
                         <ImageButton
                             android:id="@+id/imageButton10"
@@ -109,9 +110,9 @@
                             android:layout_height="150dp"
                             android:layout_weight="1"
                             android:scaleType="fitXY"
-                            android:src="@drawable/reactivate_seccion_03_08_asesoria_contable"
-                            tools:src="@drawable/reactivate_seccion_03_08_asesoria_contable"
-                            tools:srcCompat="@drawable/reactivate_seccion_03_08_asesoria_contable" />
+                            android:src="@drawable/icono_mascotas"
+                            tools:src="@drawable/icono_mascotas"
+                            tools:srcCompat="@drawable/icono_mascotas" />
 
                         <ImageButton
                             android:id="@+id/imageButton9"
@@ -119,9 +120,9 @@
                             android:layout_height="150dp"
                             android:layout_weight="1"
                             android:scaleType="fitXY"
-                            android:src="@drawable/reactivate_seccion_03_09_electricistas"
-                            tools:src="@drawable/reactivate_seccion_03_09_electricistas"
-                            tools:srcCompat="@drawable/reactivate_seccion_03_09_electricistas" />
+                            android:src="@drawable/icono_servicios_salud"
+                            tools:src="@drawable/icono_servicios_salud"
+                            tools:srcCompat="@drawable/icono_servicios_salud" />
                     </LinearLayout>
                 </LinearLayout>
             </HorizontalScrollView>
