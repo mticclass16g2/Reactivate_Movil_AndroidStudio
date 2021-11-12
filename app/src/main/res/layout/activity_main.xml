@@ -90,6 +90,7 @@
                             android:layout_height="200dp"
                             android:layout_weight="1"
                             android:backgroundTint="#00FFFFFF"
+                            android:onClick="iniciarSelected"
                             android:paddingLeft="5dp"
                             android:paddingTop="5dp"
                             android:paddingRight="5dp"

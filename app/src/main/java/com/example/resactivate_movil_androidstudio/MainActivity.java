@@ -19,4 +19,9 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this, MainActivityLogin.class);
         startActivity(i);
     }
+
+    public void iniciarSelected(View view){
+        Intent j = new Intent(this, ActivitySelectedCategory.class);
+        startActivity(j);
+    }
 }

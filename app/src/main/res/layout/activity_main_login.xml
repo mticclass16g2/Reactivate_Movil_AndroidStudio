@@ -16,11 +16,11 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:orientation="vertical"
-            android:padding="5dp">
+            android:padding="20dp">
 
             <ImageView
                 android:id="@+id/Login_ImgV1"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:scaleType="centerInside"
                 app:srcCompat="@drawable/reactivate_logo_transp_929x172" />
@@ -29,8 +29,6 @@
                 android:id="@+id/Login_TxtV1"
                 android:layout_width="match_parent"
                 android:layout_height="58dp"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
                 android:fontFamily="@font/quicksand"
                 android:text="Inicio de Sesión"
                 android:textAlignment="viewStart"
@@ -42,37 +40,36 @@
                 android:id="@+id/login_TxtV2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
                 android:autoText="false"
                 android:editable="false"
                 android:gravity="left|end"
                 android:hapticFeedbackEnabled="true"
                 android:text="Correo Electronico"
                 android:textAlignment="viewStart"
-                android:textColor="#DD2525"
                 android:textSize="18sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:paddingLeft="30dp"
+                android:textColor="#000000" />
 
             <EditText
                 android:id="@+id/login_EdtT1"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
+                android:background="@drawable/new_edtt"
                 android:editable="true"
                 android:ems="10"
-                android:hint="axample@email.com"
-                android:inputType="textPersonName" />
+                android:hint="example@email.com"
+                android:inputType="textPersonName"
+                android:paddingLeft="30dp"
+                android:textColor="#000000" />
 
             <TextView
                 android:id="@+id/login_TxtV3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
                 android:autoText="false"
                 android:editable="false"
+                android:paddingLeft="5dp"
                 android:gravity="left|end"
                 android:hapticFeedbackEnabled="true"
                 android:text="Contraseña"
@@ -85,23 +82,43 @@
                 android:id="@+id/Login_EdtT2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
                 android:ems="10"
-                android:inputType="textPassword" />
+                android:inputType="textPassword"
+                android:textColor="#000000" />
 
-            <TextView
-                android:id="@+id/login_TxtV5"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:gravity="center"
-                android:text="¿Olvidaste tu contraseña?"
-                android:textAlignment="textStart"
-                android:textColor="#979797"
-                android:textSize="16sp"
-                android:textStyle="bold" />
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/login_TxtV5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:gravity="center"
+                    android:text="¿Olvidaste tu contraseña?"
+                    android:textAlignment="textStart"
+                    android:textColor="#979797"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Login_TxtV5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/quicksand_light"
+                    android:gravity="center"
+                    android:text="Crear tu Perfil"
+                    android:textAlignment="viewStart"
+                    android:textColor="#DD2525"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
 
             <Button
                 android:id="@+id/login_Btn"
@@ -137,7 +154,7 @@
 
                 <Button
                     android:id="@+id/button3"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:layout_marginLeft="15dp"
                     android:layout_marginRight="15dp"
@@ -147,7 +164,7 @@
 
                 <Button
                     android:id="@+id/button2"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:layout_marginLeft="15dp"
                     android:layout_marginRight="15dp"
@@ -155,21 +172,6 @@
                     android:text="Google"
                     app:cornerRadius="50dp" />
             </LinearLayout>
-
-            <TextView
-                android:id="@+id/Login_TxtV5"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:layout_weight="1"
-                android:fontFamily="@font/quicksand_light"
-                android:gravity="center"
-                android:text="Crear tu Perfil"
-                android:textAlignment="viewStart"
-                android:textColor="#DD2525"
-                android:textSize="16sp"
-                android:textStyle="bold" />
 
         </LinearLayout>
     </ScrollView>

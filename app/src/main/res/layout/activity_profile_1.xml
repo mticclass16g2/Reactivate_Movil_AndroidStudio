@@ -48,6 +48,13 @@
                     android:textSize="24sp"
                     android:textStyle="bold" />
 
+                <ImageButton
+                    android:id="@+id/profile_1_ImgB2"
+                    android:layout_width="114dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#00FFFFFF" />
+
             </LinearLayout>
 
             <View
@@ -61,8 +68,11 @@
             <EditText
                 android:id="@+id/Profile_1_EdtT1"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="42dp"
+                android:background="@drawable/new_edtt"
                 android:ems="10"
+                android:paddingLeft="30dp"
+                android:textColor="#000000"
                 android:hint="Correo Electronico"
                 android:inputType="textPersonName" />
 
@@ -77,8 +87,11 @@
             <EditText
                 android:id="@+id/Profile_1_EdtT2"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="42dp"
+                android:background="@drawable/new_edtt"
                 android:ems="10"
+                android:paddingLeft="30dp"
+                android:textColor="#000000"
                 android:hint="Nombre Completo"
                 android:inputType="textPersonName" />
 
@@ -93,9 +106,12 @@
             <EditText
                 android:id="@+id/Profile_1_EdtT3"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="42dp"
+                android:background="@drawable/new_edtt"
                 android:ems="10"
                 android:hint="Apellidos"
+                android:paddingLeft="30dp"
+                android:textColor="#000000"
                 android:inputType="textPersonName" />
 
             <View
@@ -109,9 +125,12 @@
             <EditText
                 android:id="@+id/Profile_1_EdtT4"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="42dp"
+                android:background="@drawable/new_edtt"
                 android:ems="10"
                 android:hint="Celular"
+                android:paddingLeft="30dp"
+                android:textColor="#000000"
                 android:inputType="phone" />
 
             <View
@@ -148,6 +167,13 @@
                     android:textColor="#000000"
                     android:textSize="20sp"
                     android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/profile_1_ImgB"
+                    android:layout_width="114dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#00FFFFFF" />
             </LinearLayout>
 
             <View

@@ -45,6 +45,13 @@
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
+                <ImageButton
+                    android:id="@+id/profile_2_ImgB"
+                    android:layout_width="114dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#00FFFFFF" />
+
             </LinearLayout>
 
             <View
@@ -60,11 +67,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="35dp"
                 android:layout_weight="1"
-                android:background="#C8C8C8"
+                android:background="@drawable/new_edtt"
                 android:backgroundTint="#C8C8C8"
                 android:ems="10"
                 android:hint="Nombre de tu negocio o servicio"
-                android:inputType="textPersonName" />
+                android:inputType="textPersonName"
+                android:paddingLeft="30dp"
+                android:textAlignment="viewStart"
+                android:textColor="#000000" />
 
             <View
                 android:id="@+id/divider12"
@@ -91,10 +101,13 @@
                 android:id="@+id/Profile_2_EdtT2"
                 android:layout_width="match_parent"
                 android:layout_height="35dp"
-                android:background="#C8C8C8"
+                android:background="@drawable/new_edtt"
                 android:ems="10"
                 android:hint="Conecta tu pagina web (Enlace)"
-                android:inputType="textPersonName" />
+                android:inputType="textPersonName"
+                android:textAlignment="viewStart"
+                android:paddingLeft="30dp"
+                android:textColor="#000000" />
 
             <View
                 android:id="@+id/divider14"
@@ -108,10 +121,13 @@
                 android:id="@+id/Profile_2_EdtT3"
                 android:layout_width="match_parent"
                 android:layout_height="35dp"
-                android:background="#C8C8C8"
+                android:background="@drawable/new_edtt"
                 android:ems="10"
                 android:hint="Conecta tus resdes (Enlace de facebook)"
-                android:inputType="textPersonName" />
+                android:inputType="textPersonName"
+                android:paddingLeft="30dp"
+                android:textAlignment="viewStart"
+                android:textColor="#000000" />
 
             <View
                 android:id="@+id/divider15"
@@ -144,10 +160,14 @@
                 android:id="@+id/Profile_2_EdtT4"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:background="#C8C8C8"
+                android:background="@drawable/new_edtt"
                 android:ems="10"
                 android:hint="Profesion, oficion en ___ Años de experiencia en ___"
-                android:inputType="textPersonName" />
+                android:inputType="textPersonName"
+                android:paddingLeft="5dp"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:textAlignment="center" />
 
             <View
                 android:id="@+id/divider17"
