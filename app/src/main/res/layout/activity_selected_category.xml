@@ -90,9 +90,9 @@
                             android:layout_height="150dp"
                             android:layout_weight="1"
                             android:scaleType="fitXY"
-                            android:src="@drawable/icono_diseño_web"
-                            tools:src="@drawable/icono_diseño_web"
-                            tools:srcCompat="@drawable/icono_diseño_web" />
+                            android:src="@drawable/icono_restaurantes"
+                            tools:src="@drawable/icono_restaurantes"
+                            tools:srcCompat="@drawable/icono_restaurantes" />
 
                         <ImageButton
                             android:id="@+id/imageButton11"
