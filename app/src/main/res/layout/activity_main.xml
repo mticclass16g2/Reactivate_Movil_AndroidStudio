@@ -44,10 +44,19 @@
             <Button
                 android:id="@+id/button4"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
                 android:onClick="iniciarLogin"
-                android:text="Button"
+                android:text="@string/create_perfil"
                 app:cornerRadius="50dp" />
+            <Button
+                android:id="@+id/btnPrueba"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:padding="5sp"
+                android:text="Prueba Recycler"
+                android:onClick="iniciarPrueba"
+                android:textColor="@color/black"
+                app:cornerRadius="50dp"/>
 
             <Space
                 android:layout_width="match_parent"
@@ -107,6 +116,7 @@
                             android:paddingTop="5dp"
                             android:paddingRight="5dp"
                             android:scaleType="fitXY"
+                            android:onClick="iniciarSelected"
                             app:srcCompat="@drawable/reactivate_seccion_03_04_cuidado_de_mascotas" />
 
                         <ImageButton
@@ -119,7 +129,8 @@
                             android:paddingTop="5dp"
                             android:paddingRight="5dp"
                             android:scaleType="fitXY"
-                            app:srcCompat="@drawable/reactivate_seccion_03_08_asesoria_contable" />
+                            android:onClick="iniciarSelected"
+                            app:srcCompat="@drawable/reactivate_seccion_03_04_restaurantes" />
 
                         <ImageButton
                             android:id="@+id/Home_ImgB7"
@@ -131,6 +142,7 @@
                             android:paddingTop="5dp"
                             android:paddingRight="5dp"
                             android:scaleType="fitXY"
+                            android:onClick="iniciarSelected"
                             app:srcCompat="@drawable/reactivate_seccion_03_07_arquitectura_construccion" />
                     </LinearLayout>
 
@@ -168,7 +180,7 @@
                             android:layout_height="30dp"
                             android:layout_weight="1"
                             android:gravity="center_horizontal|top"
-                            android:text="Contabilidad y Finanzas"
+                            android:text="Restaurantes"
                             android:textAlignment="center"
                             android:textColor="#000000"
                             android:textStyle="bold" />
@@ -200,6 +212,7 @@
                             android:paddingTop="5dp"
                             android:paddingRight="5dp"
                             android:scaleType="fitXY"
+                            android:onClick="iniciarSelected"
                             app:srcCompat="@drawable/reactivate_seccion_03_05_cuidado_de_muebles" />
 
                         <ImageButton
@@ -212,6 +225,7 @@
                             android:paddingTop="5dp"
                             android:paddingRight="5dp"
                             android:scaleType="fitXY"
+                            android:onClick="iniciarSelected"
                             app:srcCompat="@drawable/reactivate_seccion_03_06_gimnasios_entrenadores_personales" />
 
                         <ImageButton
@@ -224,6 +238,7 @@
                             android:paddingTop="5dp"
                             android:paddingRight="5dp"
                             android:scaleType="fitXY"
+                            android:onClick="iniciarSelected"
                             app:srcCompat="@drawable/reactivate_seccion_03_09_electricistas" />
 
                         <ImageButton
@@ -236,6 +251,7 @@
                             android:paddingTop="5dp"
                             android:paddingRight="5dp"
                             android:scaleType="fitXY"
+                            android:onClick="iniciarSelected"
                             app:srcCompat="@drawable/reactivate_seccion_03_02_marketing_digital" />
                     </LinearLayout>
 

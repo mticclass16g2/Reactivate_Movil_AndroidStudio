@@ -33,7 +33,7 @@
                     android:src="@drawable/circle3b" />
 
                 <TextView
-                    android:id="@+id/Profile_2_TxtV1"
+                    android:id="@+id/tvDescrionNegocio"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -63,7 +63,7 @@
                 android:backgroundTint="#00FFFFFF" />
 
             <EditText
-                android:id="@+id/Profile_2_EdtT1"
+                android:id="@+id/etNombreNegocio"
                 android:layout_width="match_parent"
                 android:layout_height="35dp"
                 android:layout_weight="1"
@@ -83,6 +83,12 @@
                 android:layout_weight="1"
                 android:background="?android:attr/listDivider"
                 android:backgroundTint="#00FFFFFF" />
+            <Spinner
+                android:id="@+id/spnCiudades"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:textAlignment="center"
+                android:entries="@array/CiudadesstrArray"/>
 
             <View
                 android:id="@+id/divider13"
@@ -92,13 +98,8 @@
                 android:background="?android:attr/listDivider"
                 android:backgroundTint="#00FFFFFF" />
 
-            <Spinner
-                android:id="@+id/Profile_2_Spn1"
-                android:layout_width="match_parent"
-                android:layout_height="35dp" />
-
             <EditText
-                android:id="@+id/Profile_2_EdtT2"
+                android:id="@+id/etUrlSitioWeb"
                 android:layout_width="match_parent"
                 android:layout_height="35dp"
                 android:background="@drawable/new_edtt"
@@ -118,7 +119,7 @@
                 android:backgroundTint="#00FFFFFF" />
 
             <EditText
-                android:id="@+id/Profile_2_EdtT3"
+                android:id="@+id/etUrlFacebook"
                 android:layout_width="match_parent"
                 android:layout_height="35dp"
                 android:background="@drawable/new_edtt"
@@ -138,7 +139,7 @@
                 android:backgroundTint="#00FFFFFF" />
 
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/tvDescribeServicio"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/quicksand"
@@ -157,7 +158,7 @@
                 android:backgroundTint="#00FFFFFF" />
 
             <EditText
-                android:id="@+id/Profile_2_EdtT4"
+                android:id="@+id/etProfesionOficio"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:background="@drawable/new_edtt"
@@ -178,11 +179,13 @@
                 android:backgroundTint="#00FFFFFF" />
 
             <Button
-                android:id="@+id/Profile_2_Btn1"
+                android:id="@+id/etGuardarpf2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="iniciarHome"
                 android:text="Finalizar"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                app:cornerRadius="50dp"/>
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

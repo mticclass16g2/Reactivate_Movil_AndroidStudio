@@ -11,7 +11,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:onClick="iniciarProfile2"
+        android:onClick="continuarProfile2"
         android:padding="5dp">
 
         <LinearLayout
@@ -27,7 +27,7 @@
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:id="@+id/Profile_1_ImgB1"
+                    android:id="@+id/imgCircle1"
                     android:layout_width="114dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -36,7 +36,7 @@
                     android:src="@drawable/circle1b" />
 
                 <TextView
-                    android:id="@+id/Profile_1_TxtV1"
+                    android:id="@+id/tvPerfilProfesional"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -49,7 +49,7 @@
                     android:textStyle="bold" />
 
                 <ImageButton
-                    android:id="@+id/profile_1_ImgB2"
+                    android:id="@+id/img2"
                     android:layout_width="114dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -66,7 +66,7 @@
                 android:backgroundTint="#00FFFFFF" />
 
             <EditText
-                android:id="@+id/Profile_1_EdtT1"
+                android:id="@+id/etEmailpf1"
                 android:layout_width="match_parent"
                 android:layout_height="42dp"
                 android:background="@drawable/new_edtt"
@@ -85,14 +85,14 @@
                 android:backgroundTint="#00FFFFFF" />
 
             <EditText
-                android:id="@+id/Profile_1_EdtT2"
+                android:id="@+id/etPasswordpf1"
                 android:layout_width="match_parent"
                 android:layout_height="42dp"
                 android:background="@drawable/new_edtt"
                 android:ems="10"
                 android:paddingLeft="30dp"
                 android:textColor="#000000"
-                android:hint="Nombre Completo"
+                android:hint="Password"
                 android:inputType="textPersonName" />
 
             <View
@@ -102,9 +102,25 @@
                 android:layout_weight="1"
                 android:background="?android:attr/listDivider"
                 android:backgroundTint="#00FFFFFF" />
-
             <EditText
-                android:id="@+id/Profile_1_EdtT3"
+                android:id="@+id/etNombrepf1"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:background="@drawable/new_edtt"
+                android:ems="10"
+                android:paddingLeft="30dp"
+                android:textColor="#000000"
+                android:hint="Nombre Completo"
+                android:inputType="textPersonName" />
+            <View
+                android:id="@+id/divider5b"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_weight="1"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="#00FFFFFF" />
+            <EditText
+                android:id="@+id/etApellidopf1"
                 android:layout_width="match_parent"
                 android:layout_height="42dp"
                 android:background="@drawable/new_edtt"
@@ -121,9 +137,26 @@
                 android:layout_weight="1"
                 android:background="?android:attr/listDivider"
                 android:backgroundTint="#00FFFFFF" />
+            <EditText
+                android:id="@+id/etCedulapf1"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:background="@drawable/new_edtt"
+                android:ems="10"
+                android:hint="Cedula"
+                android:paddingLeft="30dp"
+                android:textColor="#000000"
+                android:inputType="textPersonName" />
+            <View
+                android:id="@+id/divider4b"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_weight="1"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="#00FFFFFF" />
 
             <EditText
-                android:id="@+id/Profile_1_EdtT4"
+                android:id="@+id/etTelefonopf1"
                 android:layout_width="match_parent"
                 android:layout_height="42dp"
                 android:background="@drawable/new_edtt"
@@ -140,40 +173,40 @@
                 android:layout_weight="1"
                 android:background="?android:attr/listDivider"
                 android:backgroundTint="#00FFFFFF" />
+            <EditText
+                android:id="@+id/etFechaNacimmiento"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingLeft="30dp"
+                android:background="@drawable/new_edtt"
+                android:hint="Fechade Nacimiento: yyyy/mm/dd"
+                android:inputType="textPersonName" />
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center_vertical"
-                android:orientation="horizontal">
-
-                <ImageButton
-                    android:id="@+id/Profile_1_ImgB2"
-                    android:layout_width="114dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:backgroundTint="#00FFFFFF"
-                    android:src="@drawable/circle2b" />
-
-                <TextView
-                    android:id="@+id/Profile_1_TxtV2"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+               <TextView
+                    android:id="@+id/tvSeleccionaCategoria"
                     android:layout_width="match_parent"
-                    android:layout_height="55dp"
-                    android:layout_weight="1"
+                    android:layout_height="30dp"
                     android:fontFamily="@font/quicksand"
-                    android:gravity="center_vertical"
-                    android:text="Selecciona la categoria para tu servicio"
+                    android:text="Categoria de servicio"
                     android:textAlignment="center"
-                    android:textColor="#000000"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-
-                <ImageButton
-                    android:id="@+id/profile_1_ImgB"
-                    android:layout_width="114dp"
+                    android:textColor="#03A9F4"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                   android:paddingTop="3dp"
+                   android:paddingBottom="3dp"/>
+                <Spinner
+                    android:id="@+id/spnCategoriaServicio"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:backgroundTint="#00FFFFFF" />
+                    android:textAlignment="center"
+                    android:paddingLeft="30dp"
+                    android:entries="@array/CategoriasServicoStrArray"
+                    />
             </LinearLayout>
 
             <View
@@ -183,12 +216,6 @@
                 android:layout_weight="1"
                 android:background="?android:attr/listDivider"
                 android:backgroundTint="#00FFFFFF" />
-
-            <Spinner
-                android:id="@+id/Profile_1_Spn1"
-                android:layout_width="match_parent"
-                android:layout_height="57dp" />
-
             <View
                 android:id="@+id/divider7"
                 android:layout_width="match_parent"
@@ -204,7 +231,7 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 android:fontFamily="sans-serif"
-                android:onClick="iniciarProfile2"
+                android:onClick="continuarProfile2"
                 android:text="Continuar"
                 android:textStyle="bold"
                 app:cornerRadius="50dp" />
